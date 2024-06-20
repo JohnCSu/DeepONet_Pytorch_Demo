@@ -4,7 +4,8 @@
 This notebook gives a brief introduction to DeepOnets by Lu et al in their paper found [here](https://arxiv.org/abs/1910.03193). This is also part of my accompanying blog post [here](https://johncsu.github.io/DeepONet_Demo/)
 
 
- Here we aim to create an Operator network that can solve the following similar 1D ODE problem given in the paper:
+Here we aim to create an Operator network that can solve the following similar 1D ODE problem given in the paper:
+
 $$
 \frac{d}{dx}F(x) = g(x) \\
 F(0) = 0\\
@@ -55,6 +56,7 @@ Where:
 - O is the output dimension size of the Onet
 
 For this example:
+
 $$
 B = 10,000\\
 N = 100\\
